@@ -2,10 +2,10 @@
   <div
     draggable
     class="nestable-handle"
-    @dragstart.passive="dragstart"
-    @touchstart.passive="dragstart"
-    @touchend.passive="touchend"
-    @touchmove.passive="touchmove"
+    @dragstart.prevent="dragstart"
+    @touchstart.prevent="dragstart"
+    @touchend.prevent="touchend"
+    @touchmove.prevent="touchmove"
   >
     <slot />
   </div>
