@@ -2,7 +2,7 @@
   <li>
     <div
       class="nestable-list-empty"
-      @mouseenter.passive="onMouseEnter"
+      @mouseenter="onMouseEnter"
     >
       <slot />
     </div>

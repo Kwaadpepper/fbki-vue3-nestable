@@ -2,9 +2,9 @@
   <li :class="itemClasses">
     <div
       class="nestable-item-content"
-      @mouseenter.passive="onMouseEnter"
-      @mouseleave.passive="onMouseLeave"
-      @mousemove.passive="onMouseMove"
+      @mouseenter="onMouseEnter"
+      @mouseleave="onMouseLeave"
+      @mousemove="onMouseMove"
     >
       <slot
         :index="index"
