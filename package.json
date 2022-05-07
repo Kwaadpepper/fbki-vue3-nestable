@@ -1,23 +1,16 @@
 {
-  "name": "vue3-nestable",
-  "version": "3.0.3",
+  "name": "fbki-vue3-nestable",
+  "version": "3.0.5",
   "description": "A simple drag & drop hierarchical list made as a vue component.",
-  "author": "Artem Stepanenko <work.stpnnk@gmail.com>",
-  "homepage": "https://github.com/stepanenko3/vue3-nestable.git",
+  "author": "Maxim Manchakkay <mxmaster1203@live.com>",
+  "homepage": "https://github.com/manchakkay/fbki-vue3-nestable.git",
   "license": "MIT",
   "module": "dist/index.umd.js",
   "main": "dist/index.umd.js",
   "unpkg": "dist/index.umd.js",
   "jsdelivr": "dist/index.umd.js",
   "keywords": [
-    "vue",
-    "vue 3",
-    "vue-nestable",
-    "vue3-nestable",
-    "vue nestable",
-    "vue 3 nestable",
-    "vue tree",
-    "vue 3 tree"
+    "fbki-vue3-nestable"
   ],
   "scripts": {
     "dev": "vite",
@@ -40,5 +33,15 @@
     "> 1%",
     "last 2 versions",
     "not ie < 11"
-  ]
+  ],
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manchakkay/fbki-vue3-nestable.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manchakkay/fbki-vue3-nestable/issues"
+  }
 }
