@@ -1,5 +1,12 @@
 export const closest = (target, selector) => {
-  return target.closest(selector)
+  var clos_res;
+
+  try {
+    let clos_res = target.closest(selector)
+  } catch (e) {
+    clos_res = target;
+  }
+  return clos_res;
 }
 
 export const getOffsetRect = (elem) => {
